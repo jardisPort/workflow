@@ -1,0 +1,40 @@
+{
+    "name": "jardisport/workflow",
+    "version": "1.0.0",
+    "description": "Workflow orchestration for PHP - Multi-step process execution with configurable transitions",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Jardis Development",
+            "email": "jardisDev@headgent.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0.4",
+        "squizlabs/php_codesniffer": "^3.11.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JardisPort\\Workflow\\": "src/"
+        }
+    },
+    "homepage": "https://github.com/jardisPort/workflow",
+    "support": {
+        "issues": "https://github.com/jardisPort/workflow/issues",
+        "email": "jardisDev@headgent.com"
+    },
+    "keywords": [
+        "domain",
+        "workflow",
+        "interfaces",
+        "JardisPort",
+        "Headgent",
+        "DDD"
+    ]
+}
