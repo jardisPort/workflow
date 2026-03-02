@@ -1,6 +1,5 @@
 {
     "name": "jardisport/workflow",
-    "version": "1.0.0",
     "description": "Workflow orchestration for PHP - Multi-step process execution with configurable transitions",
     "type": "library",
     "license": "MIT",
