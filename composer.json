@@ -1,0 +1,39 @@
+{
+    "name": "jardisport/workflow",
+    "description": "Workflow orchestration interfaces with status-based transitions and builder contracts",
+    "type": "library",
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Jardis Development",
+            "email": "jardisDev@headgent.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0.4",
+        "squizlabs/php_codesniffer": "^3.11.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JardisPort\\Workflow\\": "src/"
+        }
+    },
+    "homepage": "https://github.com/jardisPort/workflow",
+    "support": {
+        "issues": "https://github.com/jardisPort/workflow/issues",
+        "email": "jardisCore@headgent.dev"
+    },
+    "keywords": [
+        "domain",
+        "workflow",
+        "interfaces",
+        "JardisPort",
+        "Headgent",
+        "DDD"
+    ]
+}
